@@ -1,8 +1,6 @@
-#youtube-1 {
-    width: 100%;
-    height: 100%;        
-}
+
 body {
+    width: 1920px;
     width: 80%;
     margin: auto;
     background-color: black;
@@ -12,11 +10,7 @@ body {
     height: auto;
     position: relative;
     border-radius: 1%;
-    background-color: rgb(8, 8, 8);
-    -webkit-border-radius: 1%;
-    -moz-border-radius: 1%;
-    -ms-border-radius: 1%;
-    -o-border-radius: 1%;
+    
 }
 .links {
     display: inline-block;
@@ -25,6 +19,11 @@ body {
 .row{
     width: 100%;
     display: inline-block;
+    background-color: rgb(8, 8, 8);
+    -webkit-border-radius: 1%;
+    -moz-border-radius: 1%;
+    -ms-border-radius: 1%;
+    -o-border-radius: 1%;
 
     
 
@@ -43,12 +42,15 @@ body {
     
 }
 
-h1{color: lightgrey;}
+h1{color: rgb(219, 219, 219);}
 #title-font {
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
     font-size: 50px;
 }
-.youtube {
+.youtube1 { 
+    width: 1920px;
+    width: 100%;
+    height: 1080px;
 
 }
